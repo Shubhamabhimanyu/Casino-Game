@@ -33,12 +33,12 @@ int main() {
       bamt=bamt+(bid*2);
       
       cout << "\n\t\tYou Win" <<"\U0001F911" << endl;
-      cout << "\n\t\tYour Current balance is " << bamt << endl;
+      cout << LINE "\n\t\tYour Current balance is " NC << bamt << endl;
   }
   else{
       bamt=bamt-bid;
       cout << "\n\t\tyou lose" <<"\U0001F61F" << endl;
-      cout << "\n\t\tYour Current balance is " << bamt << endl;
+      cout << LINE "\n\t\tYour Current balance is " NC << bamt << endl;
       
       if(bamt==0){
           cout<< RED "\n\t\tGMAE OVER" NC;
